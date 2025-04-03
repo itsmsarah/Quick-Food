@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    border:0px;
+    padding:0px;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
+
+:root{
+    --color--primary--green:#00A000;
+    --color--neutral--grey:#999999;
+    --color--neutral--white:#FFFFFF;
+    --color--neutral--black:#000001;
+    --color--white--overlay:#FAFAFA;
+    --color--neutral--light--gray:rgb(0, 0, 1,0.6);
+
+
+    --font--size--h1:60px;
+    --font--size--h2:48px;
+    --font--size--h3:28px;
+    --font--size--p:18px;
+    --font-size--button:18px;
+
+    
+
+}

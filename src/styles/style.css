@@ -1,0 +1,38 @@
+@import url(./global.css);
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 56px 0px;
+    align-items: center;
+}
+.nav-header ul{
+    display: flex;
+    justify-content: center;
+    font-size: var(--font--size--p);
+    gap:40px;
+    list-style: none;
+   
+}
+.nav-header ul a{
+    text-decoration: none;
+    color: var( --color--neutral--light--gray);
+    font-weight: medium;
+}
+.active{
+    color:var( --color--primary--green);
+}
+.shopcart{
+    display: flex;
+    align-items: center;
+    gap:24px
+    
+}
+.btn-login{
+    color: var(--color--primary--green);
+    background-color:transparent;
+    border-radius: 10px;
+    border: 1px solid var(--color--primary--green);
+    padding: 16px 32px;
+}
+    
