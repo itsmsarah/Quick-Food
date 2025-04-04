@@ -35,4 +35,56 @@ header{
     border: 1px solid var(--color--primary--green);
     padding: 16px 32px;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
     
+}
+.healthy-food-content{
+    width: 563px;
+
+    
+}
+.healthy-food-content h1{
+    width: 563px;
+    font-size: var(--font--size--h1);
+    margin-bottom: 32px;
+}
+.healthy-food-content h1 span{
+    color: var(--color--primary--green);
+}
+.healthy-food-content p{
+    font-size: var(--font--size--p);
+    color:var(--color--neutral--light--gray);
+    margin-bottom: 32px;
+    line-height: 1.6;
+
+}
+.btn-main{
+    display: flex;
+    margin-top: 32px;
+    gap:24px;
+}
+.btn-order-now{
+    color: var( --color--neutral--white);
+    background-color:var(--color--primary--green);
+    border-radius: 10px;
+    border: 1px solid var(--color--primary--green);
+    padding: 16px 32px;
+   
+}
+.btn-explore-products{
+    color: var(--color--primary--green);
+    background-color:transparent;
+    border-radius: 10px;
+    border: 1px solid var(--color--primary--green);
+    padding: 16px 32px;
+
+}
+
+.img-main{
+    width: 651px;
+    height: 494px;
+}
