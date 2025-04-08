@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
+    src: url('../assets/fonts/Gilroy.ttf');         
 }
 
 
@@ -31,4 +31,8 @@ body{
 
     
 
+}
+p{
+    font-family: 'Gilroy Medium';
+    
 }

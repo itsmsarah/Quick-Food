@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: 'Gilroy Black';
-    src: url('../assets/fonts/Gilroy-Black.ttf') format('ttf');         
+    src: url('../assets/fonts/Gilroy-Black.ttf') ;         
 }
 
 @font-face {
     font-family: 'Gilroy Bold';
-    src: url('../assets/fonts/Gilroy-Bold.ttf') format('ttf');         
+    src: url('../assets/fonts/Gilroy-Bold.ttf') ;         
 }
 
 @font-face {
     font-family: 'Gilroy Light';
-    src: url('../assets/fonts/Gilroy-Light.ttf') format('ttf');         
+    src: url('../assets/fonts/Gilroy-Light.ttf') ;         
 }
 
 @font-face {
     font-family: 'Gilroy Medium';
-    src: url('../assets/fonts/Gilroy-Medium.ttf') format('ttf');         
+    src: url('../assets/fonts/Gilroy-Medium.ttf');         
 }
 
 header{
@@ -122,8 +122,6 @@ main{
     margin-bottom: 14px;
     font-size:48px;
     font-family: 'Gilroy Bold'; 
-    
-
 }
 .choose-us-title p{
   color: var( --color--neutral--grey);
@@ -266,7 +264,7 @@ main{
     width: 1240px;
     display: flex;
     gap: 20px;
-    
+
 }
 .comentarios-content img{
     width:100px;
@@ -295,4 +293,31 @@ main{
     font-size: var(--font--size--p);
     width: 310px;
     height: 150px;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: start;
+    gap: 82px;
+    
+}
+.about-us h2{
+    font-size: 40px;
+    font-family: 'Gilroy Bold';
+    margin-bottom: 24px;
+
+}
+.about-us p{
+    color: var( --color--neutral--light--gray);
+    font-size: var(--font--size--p);
+    width: 558px;
+    margin-bottom: 24px;
+} 
+.btn-about-us{
+    color: var(--color--neutral--white);
+    background-color:var(--color--primary--green);
+    border-radius: 10px;
+    padding: 16px 32px;
+    font-size: var(--font-size--button);
 }
