@@ -1,5 +1,25 @@
 @import url(./global.css);
 
+@font-face {
+    font-family: 'Gilroy Black';
+    src: url('../assets/fonts/Gilroy-Black.ttf') format('ttf');         
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('../assets/fonts/Gilroy-Bold.ttf') format('ttf');         
+}
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url('../assets/fonts/Gilroy-Light.ttf') format('ttf');         
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('../assets/fonts/Gilroy-Medium.ttf') format('ttf');         
+}
+
 header{
     display: flex;
     justify-content: space-around;
@@ -90,14 +110,20 @@ main{
 .why-choose-us{
     background-color: var( --color--white--overlay);
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .choose-us-title {
     text-align: center;
 }
 .choose-us-title h2{
     margin-bottom: 14px;
-    font-weight:bold;
-    font-size: var(--font--size--h2);
+    font-size:48px;
+    font-family: 'Gilroy Bold'; 
+    
+
 }
 .choose-us-title p{
   color: var( --color--neutral--grey);
@@ -108,7 +134,7 @@ main{
     width: 216px;
 }
 .article-choose-us{
-    width: 400px;
+    width: 1240px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,10 +143,12 @@ main{
     align-items: center;
 }
 .cards-why-choose{
+    width: 1240px;
     display: flex;
     justify-content: center;
     margin-top: 60px;
     gap:20px;
+
 }
 .article-choose-us h3{
     text-align: center;
@@ -152,5 +180,62 @@ main{
     margin-top: 8px;
     color: var(--color--neutral--grey);
     font-size: var(--font--size--p);
+}
+.special-dishes{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.special-dishes-h2{
+    text-align: center;
+    font-size:var(--font--size--h2);
+    color: var(--color--neutral--black);
+}
+.img-special-dishes{
+    width: 250px;
+    height: 242.65px;
+}
+.img-special-dishes-different{
+    width: 192px;
+    height:242px;
+}
+.cards-special-dishes{
+    width: 1240px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap:20px
+
+}
+.special-dishes-container{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.special-dishes-h2{
+    font-size: var(--font--size--h3);
+    color: var(--color--neutral--black);
+    margin-bottom: 60px;
+    
+}
+.special-dishes-container p{
+    color: var( --color--neutral--light--gray);
+    font-size: var(--font--size--p);
+    margin-top: 16px;
+    width: 279px;
+    text-align: center;
+}
+.special-dishes-container button{
+    margin-top: 16px;
+    width: 352px;
+    padding: 16px 32px;
+    background-color: var(--color--primary--green);
+    color: var(--color--neutral--white);
+    font-size: var(--font-size--button);
+    border-radius: 8px ;
 }

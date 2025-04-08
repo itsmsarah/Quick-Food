@@ -9,8 +9,9 @@
     src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
 }
 
+
 body {
-    font-family: 'Gilroy', sans-serif; 
+    font-family: 'Gilroy';   
 }
 
 :root{
