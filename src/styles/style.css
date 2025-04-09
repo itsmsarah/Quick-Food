@@ -321,3 +321,56 @@ main{
     padding: 16px 32px;
     font-size: var(--font-size--button);
 }
+.subscribe{
+    margin-top: 60px;
+    padding: 100px 600px; 
+    background-color: var(--color--white--overlay);
+    
+
+}
+.newsteller{
+    width: 710px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsteller h2{
+    font-size: var(--font--size--h2);
+    font-family: 'Gilroy Bold';
+    color: var(--color--neutral--black);
+    margin-bottom: 8px;
+}
+.newsteller p{
+    font-size: var(--font--size--p);
+    color: var(--color--neutral--light--gray);
+    margin-bottom: 60px;
+}
+input{
+    padding: 8px 8px 8px 24px;
+    width: 710px;
+    height: 77px;
+    background-color: var(--color--neutral--white);
+    color: var(--color--neutral--black);
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+    font-size: var(--font--size--p);
+
+}
+input::placeholder{
+    color: var(--color--neutral--black);
+}
+.newsteller button{
+    width: 174px;
+    height: 61px;
+    background-color: var(--color--primary--green);
+    color: var(--color--neutral--white);
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    translate: 320% -130%; 
+    border-radius: 8px;
+    /* 320 pra direita e 13o pra cima */
+}
