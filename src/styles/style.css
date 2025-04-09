@@ -19,6 +19,11 @@
     font-family: 'Gilroy Medium';
     src: url('../assets/fonts/Gilroy-Medium.ttf');         
 }
+@font-face {
+    font-family: 'Gilroy Regular';
+    src: url('../assets/fonts/./Gilroy-Regular.ttf') ;         
+}
+
 
 header{
     display: flex;
@@ -60,6 +65,9 @@ main{
     justify-content: center;
     align-items: center;
     gap: 124px;
+    padding: 101px 29px 101px 108px;
+  
+
     
 }
 .healthy-food-content{
@@ -201,7 +209,6 @@ main{
     height:242px;
 }
 .cards-special-dishes{
-    width: 1240px;
     display: flex;
     flex-direction: center;
     align-items: center;
@@ -323,8 +330,11 @@ main{
 }
 .subscribe{
     margin-top: 60px;
-    padding: 100px 600px; 
+    padding: 100px 400px; 
     background-color: var(--color--white--overlay);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 
 }
@@ -374,3 +384,88 @@ input::placeholder{
     border-radius: 8px;
     /* 320 pra direita e 13o pra cima */
 }
+footer{
+    background-color: var(--color--primary--green);
+   margin-top: 55px;
+    /* width: 100%; */
+    padding: 100px;
+    /* height: 507px;
+    width: 1440px; */
+}
+.footer-group{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 239px;
+    margin-bottom: 80px;
+    
+    
+}
+.footer-navigation{
+    display: flex;
+    gap: 97px;
+
+}
+.logo-and-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.logo-footer{
+    width: 141px;
+    height: 33px;
+}
+
+.social-icons{
+    background-color:none;
+    padding: 4.19px 5.71px;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color--neutral--white);
+
+}
+
+.social-icons{
+    width: 6.58px;
+    height: 11.9px;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 16px;
+}
+.footer-item{
+    color: var(--color--neutral--silver);
+    text-decoration: none;
+    margin-bottom: 16px;
+    display: block;
+}
+.footer-links{
+    list-style: none;
+    font-size: var(--font--size--p);
+    color: var(--color--neutral--white);
+}
+.footer-container p{
+    color: var(--color--neutral--white);
+    font-size: var(--font--size--p);
+    font-family: 'Gilroy Bold';
+    margin-bottom: 24px;
+}
+.copyright{
+    border-top: 1px solid var(--color--neutral--white);
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px; */
+}
+.copyright p{
+    color: var(--color--neutral--white);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Gilroy Regular';
+    
+}
+   
